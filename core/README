@@ -1,0 +1,16 @@
+# Project Name
+    Current Weather Prediction
+
+The "Current Weather Prediction" project is a Django-based web application that provides real-time weather information for a given location. By utilizing an API integration with a weather service provider, the application retrieves the latest weather data and presents it to users in an easily readable format.
+
+## Features
+
+*  Real-time weather updates: The application fetches the current weather information, including temperature, humidity, wind speed, and conditions, based on the user's specified location.
+*  Location-based search: Users can input a specific location, such as a city or town, to obtain the weather forecast for that area.
+
+# Technologies Used
+* Django: A high-level Python web framework for rapid development and clean design.
+* Django Rest Framework: A powerful and flexible toolkit for building Web APIs.
+* Weather Service API: Integration with a weather service provider's API to retrieve real-time weather data.
+
+
