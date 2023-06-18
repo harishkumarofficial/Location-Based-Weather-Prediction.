@@ -1,5 +1,5 @@
 # Project Name
-    Current Weather Prediction
+    Location-Based-Weather-Prediction
 
 The "Current Weather Prediction" project is a Django-based web application that provides real-time weather information for a given location. By utilizing an API integration with a weather service provider, the application retrieves the latest weather data and presents it to users in an easily readable format.
 
@@ -12,5 +12,28 @@ The "Current Weather Prediction" project is a Django-based web application that 
 * Django: A high-level Python web framework for rapid development and clean design.
 * Django Rest Framework: A powerful and flexible toolkit for building Web APIs.
 * Weather Service API: Integration with a weather service provider's API to retrieve real-time weather data.
+
+1. Install the project dependencies:
+    pip install -r requirements.txt
+
+2. Create a .env file in the project's root directory and add the following content:
+    WEATHER_KEY=**************************
+    (Replace ************************** with your weather API key.)
+3. Run database migrations:
+    python manage.py migrate
+4. Start the development server:
+    python manage.py runserver
+5. Open your web browser and visit http://localhost:8000 to access the application.
+    API Endpoint
+    ------------
+       * Endpoint: http://127.0.0.1:8002/weather/
+       * Method: GET
+       * Description: Retrieve weather details.
+    Technologies Used
+    ------------------
+       * Django
+       * Django Rest Framework
+
+
 
 
